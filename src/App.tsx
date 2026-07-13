@@ -1,13 +1,7 @@
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
+import AppRouter from "./router/Router";
 
 function App() {
-  return (
-    <main id="top">
-      <Hero />
-      <Projects />
-    </main>
-  );
+  return <AppRouter />;
 }
 
 export default App;
