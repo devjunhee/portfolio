@@ -35,7 +35,7 @@ export default function HomePage() {
 
           <div className="hero-actions">
 
-            <a className="btn primary" href="/portfolio/projects">
+            <a className="btn primary" href="/projects">
               프로젝트 보기
             </a>
 
