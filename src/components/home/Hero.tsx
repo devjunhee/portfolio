@@ -1,4 +1,4 @@
-import { Github, Mail, Download, ChevronDown } from "lucide-react";
+import {  Mail, Download, ChevronDown } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -35,8 +35,7 @@ export default function Hero() {
               target="_blank"
               className="flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-black font-semibold hover:scale-105 transition"
             >
-              <Github size={18} />
-              GitHub
+             
             </a>
 
             <a

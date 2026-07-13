@@ -1,5 +1,5 @@
 import type { CSSProperties } from "react";
-import type { Project } from "../data/projects";
+import type { Project } from "../../types/project";
 
 type Props = {
   project: Project;
