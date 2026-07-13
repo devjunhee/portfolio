@@ -21,10 +21,7 @@ const router = createBrowserRouter(
       path: "/projects/:slug",
       element: <ProjectDetailPage />,
     },
-  ],
-  {
-    basename: "/portfolio",
-  }
+  ]
 );
 
 export default function AppRouter() {
